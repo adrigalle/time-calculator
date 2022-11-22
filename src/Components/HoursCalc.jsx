@@ -3,15 +3,16 @@ import UserInput from './UserInput';
 import UserButtons from './UserButtons';
 
 
-function Calculator() {
+
+function HoursCalc() {
     return (
-        <div className='calculator-board'>
-            <h1>This is the board</h1>
+        <>
+            <h1>hours calculator</h1>
             <Total />
             <UserInput />
             <UserButtons />
-        </div>
-    )
+        </>
+    );
 }
 
-export default Calculator;
+export default HoursCalc;
